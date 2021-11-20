@@ -1,0 +1,144 @@
+How to Install Anaconda in Ubuntu 
+Steps---
+Download Link - 
+https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+
+Navigate the downloaded file
+this will probably come in Download folder
+
+Open Terminal
+
+    cd Download
+    bash Anaconda3-2021.05-Linux-x86_64.sh
+Enter 
+Enter
+Enter
+.
+.
+.
+yes
+Enter
+
+wait for a while
+
+yes
+anaconda is almost installed
+
+exit the terminal
+type
+
+    anaconda-navigator
+
+you can install additional package as per requirement
+
+jupyterlab is working and spyder is also working
+
+now set defaul path or environment so in future we will work smoothly
+
+copy that path untill bin folder
+
+#Anaconda Path
+export PATH=/home/enext/anaconda3/bin:PATH
+
+open gedit or vi editor
+past this variable into that 
+
+syntax
+gedit /home/enext/ .bashrc
+
+add at the end 
+save and exit
+
+enter this command
+    source .bashrc
+
+now we can check list of anaconda
+
+to start jupyter notebook
+
+    jupyter notebook
+
+to close
+ 
+Ctrl+C
+
+-----------------------------
+For Error :
+ export PATH=/bin:/usr/bin:/usr/local/bin:/sbin:/usr/sbin
+
+export PATH=/usr/bin:PATH
+
+------------------------------
+zoom -  CtrlShift+
+
+
+Launch Sypder - sypder
+
+Update-
+conda update anaconda
+conda install spyder=5.0.5
+
+
+Such Error:---
+
+anaconda-navigator: command not found
+
+source ~/anaconda3/bin/activate root 
+
+
+to start jupyter :
+
+1. jupyter notebook
+2. jupyter lab
+
+
+
+
+
+
+
+Now We will setup Environment for Machine Learning Project
+
+
+
+Steps to Create Virtual Environment :----
+
+      sudo apt install python3-venv
+
+      python3 -m venv Virtual_Env_PML
+
+Activate:-
+
+	    source Virtual_Env_PML/bin/activate
+
+To install Pip Requist:-
+
+	    pip install requests
+
+Deactivate:-
+
+	    deactivate
+
+
+you will need this file
+
+requirements.txt 
+
+ (Run) it is dependencies for pml project
+
+       pip install -r requirements.txt
+
+
+
+Activate Virtual Environment 
+
+      source Virtual_Env_PML/bin/activate
+
+Deactivate Virtual Environment
+      source Virtual_Env_PML/bin/deactivate
+
+
+
+
+
+
