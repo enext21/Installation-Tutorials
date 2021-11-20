@@ -8,7 +8,8 @@ lets get started
 Step2. Open Terminal
 we will use super user command
 ie. sudo
-type sudo apt install libreoffice
+type 
+        sudo apt install libreoffice
 hit enter
 y
 enter
