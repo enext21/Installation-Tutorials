@@ -1,0 +1,35 @@
+
+The command could not be located because '/sbin' is not included in the PATH environment variable
+
+
+
+
+I have a severe problem today: when I type ifconfig it does not show ip configuration on ubuntu 12.04. Can anyone help me on this?
+
+Here is the result of ifconfig:
+
+Command 'ifconfig' is available in '/sbin/ifconfig'
+The command could not be located because '/sbin' is not included in the PATH environment variable.
+This is most likely caused by the lack of administrative privileges associated with your user account.
+ifconfig: command not found
+
+
+Try this command :
+
+	sudo ln -s /sbin/ifconfig /usr/bin/ifconfig
+	
+	
+	
+You can do either of the following:
+
+    Open your ~/.bashrc file and write the following to the end:
+
+    export PATH=$PATH:/sbin
+
+and then do source ~/.bashrc or open a new terminal instance.
+
+    or open your /etc/environment and add /sbin to end of the PATH variable, so that is as follows:
+
+    PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/bin:/usr/games:/sbin"
+
+
