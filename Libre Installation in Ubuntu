@@ -1,0 +1,23 @@
+#Live Installation-LibreOffice in Linux Using Terminal |Virtual Box|Virtual Machine|eNext Technology
+We will learn how to install libreoffice in any linux distributions
+even in viratual machine
+Step1. Lets check whether is there?
+oops.
+no
+lets get started
+Step2. Open Terminal
+we will use super user command
+ie. sudo
+type sudo apt install libreoffice
+hit enter
+y
+enter
+wait a while
+it will take some binary time
+depending upon ping or net speed
+i will give command in discription also
+Step3. exit
+and check by navigator
+Hello
+Thanks For Watching
+do share if you like it……………..
