@@ -1,0 +1,27 @@
+How to Export Output of Terminal in Desired formate|Linux terminal | Window's Shell
+
+1.open terminal
+
+2.Check Directory  
+	pwd
+
+change directory
+
+	cd Desktop
+
+3.type    script <file_name>.<extension>
+
+	script Test.txt
+	script Text.pdf
+
+prefferd text
+
+do whatever you want on your terminal
+
+	exit
+
+
+go to check your directory
+
+alternatively can check in terminal also
+	cat Test.txt
